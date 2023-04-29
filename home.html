@@ -21,14 +21,14 @@
         }}
           
 </style>
-<audio src="monday-morning-mountaineer.mp3" autoplay ></audio>
+<audio src="monday-morning-mountaineer.mp3" autoplay></audio>
 <body>
     
-      <script>
+  <script>
       
-window.addEventListener("DOMContentLoaded", event => {
-  const audio = document.getElementsByTagName("audio");
-  audio.volume = 0.2;
+    const audio = document.querySelector("audio");
+    audio.volume = 0.3;
+    window.addEventListener("DOMContentLoaded", event => {
   audio.play();
 })
       </script>
