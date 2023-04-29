@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+            background-image: url(neuronCells.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        @media (max-width:600px) {
+          body{
+            background-image: url(bengal-tiger-in-the-dark_3828530.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: black;
+        }}
+          
+</style>
+<body>
+    
+      <script>
+        var element = document.querySelector(".door");
+element.addEventListener("click", toggleDoor);
+
+function toggleDoor() {
+  element.classList.toggle("doorOpen");
+}
+      </script>
+</body>
+</html>
