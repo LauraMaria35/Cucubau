@@ -21,15 +21,16 @@
         }}
           
 </style>
+<audio src="monday-morning-mountaineer.mp3" autoplay ></audio>
 <body>
     
       <script>
-        var element = document.querySelector(".door");
-element.addEventListener("click", toggleDoor);
-
-function toggleDoor() {
-  element.classList.toggle("doorOpen");
-}
+      
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.getElementsByTagName("audio");
+  audio.volume = 0.2;
+  audio.play();
+})
       </script>
 </body>
 </html>
